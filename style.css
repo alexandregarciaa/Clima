@@ -21,6 +21,7 @@ h1 {
 
 .busca {
     display: flex;
+    flex-direction: column;
     width: 300px;
 }
 .busca #searchInput {
@@ -38,11 +39,11 @@ h1 {
     background-color: #555;
     color: #FFF;
     border-radius: 5px;
-    margin-left: 10px;
     cursor: pointer;
+    margin-top: 10px;
 }
 .busca button:hover {
-    background-color: #444;
+    background-color: #88;
 }
 
 .resultado {
